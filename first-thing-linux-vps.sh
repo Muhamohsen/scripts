@@ -1,4 +1,5 @@
 #! /bin/sh
+#ref: https://maximorlov.com/4-essential-steps-to-securing-a-vps/
 #This script is intented to run th efirst thing after installing a linux VPS to setup some security meausres
 #check if the script is run as sudo 
 if [[ $EUID -ne 0 ]]; then
